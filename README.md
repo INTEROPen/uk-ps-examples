@@ -1,4 +1,4 @@
-# INTEROPen hack heavy: uk-ps-examples
+# INTEROPen JSON Patient Summary Examples
 
 Share examples of your IPS bundles as JSON in this repo!
 
