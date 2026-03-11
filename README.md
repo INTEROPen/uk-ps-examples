@@ -19,3 +19,7 @@ Create a dir for your org. Add 1 or more JSON format IPS bundles so we all have 
 - Build on the NHS-E IPS GitHub spec.
 - Co-produce a draft UK Patient Summary Implementation Guide (UK-PS) based initially on EN requirements aligned to the global IPS IG 2.0
 - Explore how we can safely and realistically support IPS-based sharing.
+
+## Hack Heavy Discussion notes
+
+- Day 1: [Tech Stream summary](https://github.com/INTEROPen/uk-ps-examples/issues/2): https://github.com/INTEROPen/uk-ps-examples/issues/2
