@@ -1,0 +1,2846 @@
+{
+  "resourceType": "Bundle",
+  "id": "e658c0e4-6b95-4295-863f-51cab3187a67",
+  "identifier": {
+    "system": "https://fhir.graphnethealth.com/Identifiers",
+    "value": "f68dbf6a-b8ba-4b0e-be42-e6cbdc3d3b96"
+  },
+  "type": "document",
+  "timestamp": "2026-03-10T16:33:13.002135+00:00",
+  "entry": [
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Composition/88187ac6-daa5-49f0-9548-7c70b6893d9e",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "88187ac6-daa5-49f0-9548-7c70b6893d9e",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Title:</b> Shared Care Record Patient Summary as at 03/10/2026 16:33:13</p><p><b>Document Type:</b> Patient summary Document</p><p><b>Date:</b> 03/10/2026 16:33:13</p><p><b>Author:</b> CareCentric Shared Care Record</p></div>"
+        },
+        "identifier": {
+          "system": "https://fhir.graphnethealth.com/Identifiers",
+          "value": "c5885815-e087-4497-a1f8-962ae722b211"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "date": "2026-03-10T16:33:13.0142963+00:00",
+        "author": [
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathon/Device/a93aff9b-6ada-44db-acb6-1fb377fb60b3"
+          }
+        ],
+        "title": "Shared Care Record Patient Summary as at 03/10/2026 16:33:13",
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR",
+                    "display": "care provision"
+                  }
+                ],
+                "text": "care provision"
+              }
+            ],
+            "period": {
+              "end": "2026-03-10T16:33:13.0208145+00:00"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Problems",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Problem</th><th>Category</th><th>Onset Date</th><th>Recorded Date</th></tr><tr><td>Diabetic on oral treatment</td><td>Encounter Diagnosis</td><td>04/04/2022 00:00:00</td><td>04/04/2022 09:44:00</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Condition/3TLKAEOHDFFLYEHCWATERIMQDCDLRWS3RKWAMJIKALBRM4DE53PA"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Allergy</th><th>Category</th><th>Verification Status</th><th>Reaction Manifestation / Severity</th><th>Onset Date</th><th>Recorded Date</th></tr><tr><td>Adverse reaction to Piperacillin And Tazobactam</td><td>Medication</td><td>Confirmed</td><td></td><td></td><td>08/01/2022 00:00:00</td></tr><tr><td>Adverse reaction to Plasters</td><td>Medication</td><td>Confirmed</td><td></td><td></td><td>05/15/2018 00:00:00</td></tr><tr><td>H/O: non-drug allergy: House Dust And Dust Mites</td><td>Medication</td><td>Confirmed</td><td></td><td></td><td>07/01/1996 00:00:00</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/6GAHMVLLHIGWWZROJK3ZGZ6AAI"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/XZHVL75O7GOHQLY2BAY35ONOGU"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/DJI5OGK6QUOVJH5ZVMZ6SBK6SU"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><th>Category</th><th>Source</th><th>Dosage</th><th>Dose Unit</th><th>Dose Value</th><th>Effective Date</th><th>Asserted Date</th></tr><tr><td>Lansoprazole 30mg gastro-resistant capsules</td><td></td><td>Brandon's GP Practice</td><td>ONE capsule in the morning - aspirin life-long post TAVI</td><td>capsule</td><td>56</td><td>03/06/2011 00:00:00</td><td>03/06/2011 13:05:00</td></tr><tr><td>Memantine 10mg tablets</td><td></td><td>Brandon's GP Practice</td><td>One To Be Taken Each Day; kidney blood test in Aug 2021 ; nomad</td><td>tablet</td><td>28</td><td>03/06/2011 00:00:00</td><td>03/06/2011 15:59:00</td></tr><tr><td>Gliclazide 80mg tablets</td><td></td><td>Brandon's GP Practice</td><td>One To Be Taken Twice A Day</td><td>tablet</td><td>56</td><td>03/06/2011 00:00:00</td><td>03/06/2011 15:59:00</td></tr><tr><td>Aspirin 75mg dispersible tablets</td><td></td><td>Brandon's GP Practice</td><td>one DAILY IN NOMAD; from 13.7.21 after completing course on dalteparin injections</td><td>tablet</td><td>28</td><td>03/02/2011 00:00:00</td><td>03/02/2011 15:59:00</td></tr><tr><td>Doublebase  Emollient Shower Gel</td><td></td><td>Brandon's GP Practice</td><td>ASD</td><td>gram</td><td>200</td><td>01/12/2011 00:00:00</td><td>01/12/2011 00:00:00</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R7YXN6NBJDFO4ATEVJ7HC75WSYVQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R4URTEVX34FVJ3FCAU5MNQWEFZ4Q"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R4TKAAJC5MYLHGE5SEDW5MJLQEYQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R5LSV6JIUANN5CRUEXEAFJOJZ3WA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R6AFLJDS7EYSIK3LHV2NXZF5VPFA"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Category</th><th>Report Type</th><th>Source</th><th>Status</th><th>Specimen Type</th><th>Result Interpreter</th><th>Effective Date</th></tr><tr><td>Pathology</td><td>FULL BLOOD COUNT</td><td>BHI</td><td>Final</td><td>Blood</td><td></td><td>03/11/2024 10:28:00</td></tr><tr><td colspan='7'><table><tr><th>Item</th><th>Value</th><th>Units</th><th>High</th><th>Low</th><th>Abnormal</th></tr><tr><td>Basophils</td><td>0.1</td><td>10*9/L</td><td>0.1</td><td>0</td><td></td></tr><tr><td>Eosinophils</td><td>0.3</td><td>10*9/L</td><td>0.4</td><td>0</td><td></td></tr><tr><td>Haemoglobin</td><td>87</td><td>g/L</td><td>165</td><td>115</td><td>Abnormal</td></tr><tr><td>Haematocrit</td><td>0.280</td><td>ratio</td><td>0.47</td><td>0.37</td><td>Abnormal</td></tr><tr><td>Lymphocytes</td><td>2.4</td><td>10*9/L</td><td>4</td><td>1</td><td></td></tr><tr><td>MCH</td><td>26.8</td><td>pg</td><td>35</td><td>26</td><td></td></tr><tr><td>MCHC</td><td>311</td><td>g/L</td><td>350</td><td>290</td><td></td></tr><tr><td>MCV</td><td>86.1</td><td>fL</td><td>105</td><td>75</td><td></td></tr><tr><td>Monocytes</td><td>0.8</td><td>10*9/L</td><td>0.8</td><td>0.2</td><td></td></tr><tr><td>Mean Platelet volume</td><td>10.4</td><td>fL</td><td>11.9</td><td>8.2</td><td></td></tr><tr><td>Neutrophils</td><td>4.1</td><td>10*9/L</td><td>7.5</td><td>2</td><td></td></tr><tr><td>Platelets</td><td>317</td><td>10*9/L</td><td>450</td><td>150</td><td></td></tr><tr><td>RBC</td><td>3.25</td><td>10*12/L</td><td>5.5</td><td>3.5</td><td>Abnormal</td></tr><tr><td>RDW</td><td>17.2</td><td>%</td><td>15</td><td>11</td><td>Abnormal</td></tr><tr><td>White Cell Count</td><td>7.7</td><td>10*9/L</td><td>11</td><td>4</td><td></td></tr></table></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/DiagnosticReport/406cefa5-13a4-483a-971f-2462a4d39636"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCPLGO63YMM4SGS7EXZMNPAN5K4A"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDB2ECLWILFKCQIYQ6QSSTJRUBFPQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDB7TLBMLGN657S6MFCALXXXHUY2Q"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDZYZ7JBVVKU7GN5CWYJA5CHOZCQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCCEAJI2SH4H343T65IZDPL42QRQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDATTR2SKNWQAB5XC4J2OBNWZYXYA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCHI37EPVLDB67LVCZ7V4SLMDJVA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDAJYQV637EFLC2X2XICC7Q5LHCKQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDC4OFXD4U5YOYKWUXCJDXFHE742Q"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDAUSAMAZ2HI5VDJHVTQQHYHWEIUA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDBUZGLTJ6PC3MWKSUIPJD5LM5NXQ"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDD2DSJTBOGMGSXN6V7CV3YL42GQA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDBURHPQH2U45NB25M5TEWL2IALZA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDBCLMGEB25A4C2IV6FMLV5HML5Q"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDJRT6TLDNRQTHVKXDMB56RSW4PA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCTF3WKGPL2SOMV5KSDVLROLLF7Q"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Procedure</th><th>Status</th><th>Performer</th><th>Performed Date</th></tr><tr><td>Referral to social prescribing service</td><td></td><td></td><td>03/06/2024 00:00:00</td></tr><tr><td>Administration of first inactivated seasonal influenza vaccination</td><td></td><td></td><td>10/07/2023 00:00:00</td></tr><tr><td>Dressing of wound</td><td></td><td></td><td>09/21/2023 00:00:00</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDAT25DF74DDXMFOZH3MEY4YMZYOA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDCZJSDBLERNS737QLOYND7MGDVDA"
+              },
+              {
+                "reference": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDCIOSFBM442WCSH2AZTMO7OMIKJQ"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Device/a93aff9b-6ada-44db-acb6-1fb377fb60b3",
+      "resource": {
+        "resourceType": "Device",
+        "id": "a93aff9b-6ada-44db-acb6-1fb377fb60b3",
+        "identifier": [
+          {
+            "system": "https://www.graphnethealth.com/",
+            "value": "GRAPHNET"
+          }
+        ],
+        "manufacturer": "Graphnet Health Limited",
+        "deviceName": [
+          {
+            "name": "CareCentric Shared Care Record",
+            "type": "user-friendly-name"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Patient/KN3VSTOSRNBKZTDYJZYK7IYZZBWIDDRIVAQ2KFBP3AOQZ4OJL5YA",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "KN3VSTOSRNBKZTDYJZYK7IYZZBWIDDRIVAQ2KFBP3AOQZ4OJL5YA",
+        "meta": {
+          "versionId": "20260310094313487",
+          "lastUpdated": "2026-03-10T09:43:13+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "2"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "gp"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "extension": [
+              {
+                "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusEngland",
+                      "code": "number-present-and-verified",
+                      "display": "Number present and verified"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9449305501"
+          }
+        ],
+        "name": [
+          {
+            "family": "HODGE",
+            "given": [
+              "DONNA"
+            ],
+            "prefix": [
+              "Miss"
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "2009-05-21",
+        "address": [
+          {
+            "text": "12 NEWBURY GARDENS  ,EPSOM,United Kingdom,KT19 0NU",
+            "line": [
+              "12 NEWBURY GARDENS",
+              "EPSOM",
+              "United Kingdom"
+            ],
+            "postalCode": "KT19 0NU"
+          }
+        ],
+        "maritalStatus": {
+          "text": "Not Known"
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+            "value": "N83601"
+          }
+        },
+        "link": [
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+            },
+            "type": "seealso"
+          },
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+            },
+            "type": "seealso"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A",
+        "meta": {
+          "versionId": "20260310094313487",
+          "lastUpdated": "2026-03-10T09:43:13+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "extension": [
+              {
+                "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusEngland",
+                      "code": "number-present-and-verified",
+                      "display": "Number present and verified"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9449305501"
+          },
+          {
+            "system": "https://fhir.graphnethealth.com/Id/Local-Identifiers-RTVX5",
+            "value": "493487262"
+          }
+        ],
+        "name": [
+          {
+            "family": "HODGE",
+            "given": [
+              "DONNA"
+            ],
+            "prefix": [
+              "Miss"
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "2009-05-21",
+        "address": [
+          {
+            "text": "12 NEWBURY GARDENS  ,EPSOM,United Kingdom,KT19 0NU",
+            "line": [
+              "12 NEWBURY GARDENS",
+              "EPSOM",
+              "United Kingdom"
+            ],
+            "postalCode": "KT19 0NU"
+          }
+        ],
+        "maritalStatus": {
+          "text": "Not Known"
+        },
+        "link": [
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+            },
+            "type": "seealso"
+          },
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/KN3VSTOSRNBKZTDYJZYK7IYZZBWIDDRIVAQ2KFBP3AOQZ4OJL5YA"
+            },
+            "type": "seealso"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA",
+        "meta": {
+          "versionId": "20260310094313487",
+          "lastUpdated": "2026-03-10T09:43:13+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "gp"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "extension": [
+              {
+                "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatusEngland",
+                      "code": "number-present-and-verified",
+                      "display": "Number present and verified"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9449305501"
+          },
+          {
+            "system": "https://fhir.graphnethealth.com/Id/Local-Identifiers-YGJ",
+            "value": "9449305501"
+          }
+        ],
+        "name": [
+          {
+            "family": "HODGE",
+            "given": [
+              "DONNA"
+            ],
+            "prefix": [
+              "Miss"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2009-05-21",
+        "address": [
+          {
+            "text": "12 NEWBURY GARDENS  ,EPSOM,United Kingdom,KT19 0NU",
+            "line": [
+              "12 NEWBURY GARDENS",
+              "EPSOM",
+              "United Kingdom"
+            ],
+            "postalCode": "KT19 0NU"
+          }
+        ],
+        "maritalStatus": {
+          "text": "Not Known"
+        },
+        "link": [
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/KN3VSTOSRNBKZTDYJZYK7IYZZBWIDDRIVAQ2KFBP3AOQZ4OJL5YA"
+            },
+            "type": "seealso"
+          },
+          {
+            "other": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+            },
+            "type": "seealso"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Condition/3TLKAEOHDFFLYEHCWATERIMQDCDLRWS3RKWAMJIKALBRM4DE53PA",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCDLRWS3RKWAMJIKALBRM4DE53PA",
+        "meta": {
+          "versionId": "4EXJSLASHQ35EEPWM22NCV2EDY",
+          "lastUpdated": "2026-03-10T13:18:35+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ConditionEpisode",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-ConditionEpisodicity",
+                  "code": "first"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://demo.data.graphnethealth.com/id",
+            "value": "1be3c489-10e5-0b25-9052-f93654b77ba8-493487262"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "170746002",
+              "display": "Diabetic on oral treatment"
+            }
+          ],
+          "text": "Diabetic on oral treatment"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "onsetDateTime": "2022-04-04",
+        "recordedDate": "2022-04-04T09:44:00.000Z",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://demo.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr General Practitioner"
+        },
+        "asserter": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://demo.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr GP Practitioner"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/6GAHMVLLHIGWWZROJK3ZGZ6AAI",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "6GAHMVLLHIGWWZROJK3ZGZ6AAI",
+        "meta": {
+          "versionId": "WJYGSGF7B3D7TFAKRXGK52JFBE",
+          "lastUpdated": "2026-03-10T13:18:37+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "f4e106e1-d52b-321d-3eda-263ebd57eead-493487262"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "ALLERGY35728NEMIS",
+              "display": "Adverse reaction to Piperacillin And Tazobactam"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "recordedDate": "2022-08-01",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "A|04560c35-a595-5946-a6cf-f34e56f5b43d"
+          },
+          "display": "Dr GP Practitioner"
+        },
+        "asserter": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d17"
+          },
+          "display": "Dr GP Practioner"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/XZHVL75O7GOHQLY2BAY35ONOGU",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "XZHVL75O7GOHQLY2BAY35ONOGU",
+        "meta": {
+          "versionId": "WB4YIIJCIUBP7SDXVJ7BKHVJXM",
+          "lastUpdated": "2026-03-10T10:02:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "37520f44-1f48-17d9-3730-f83e0b300646-9449305501"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "ALLERGY20.8",
+              "display": "Adverse reaction to Plasters"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "recordedDate": "2018-05-15",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "A|7d2660a5-258b-5f46-b81e-d3fdd7bc4d68"
+          },
+          "display": "Dr GP Practitioner"
+        },
+        "asserter": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr GP Practioner"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/AllergyIntolerance/DJI5OGK6QUOVJH5ZVMZ6SBK6SU",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "DJI5OGK6QUOVJH5ZVMZ6SBK6SU",
+        "meta": {
+          "versionId": "6D4PDYZMEST47VXC76EWTPMG4I",
+          "lastUpdated": "2026-03-10T10:02:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "6c091852-420b-49a9-cbbc-8fcb37b2717c-9449305501"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "14M..00",
+              "display": "H/O: non-drug allergy: House Dust And Dust Mites"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "recordedDate": "1996-07-01",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "A|f6520d8d-ad3d-5938-ae3b-828072e92fa7"
+          },
+          "display": "Dr GP Practitioner"
+        },
+        "asserter": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d22"
+          },
+          "display": "Dr GP Practioner"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R7YXN6NBJDFO4ATEVJ7HC75WSYVQ",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "NVZHNN54GKU7ODROGJVON4G3R7YXN6NBJDFO4ATEVJ7HC75WSYVQ",
+        "meta": {
+          "versionId": "MRSIWGTMAMVDFWGKRE4TAOZSG4",
+          "lastUpdated": "2026-03-10T13:18:37+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+            "valueDateTime": "2024-01-18"
+          },
+          {
+            "url": "https://fhir.graphnethealth.com/R4/Extension-PrescriptionType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-PrescriptionType",
+                  "code": "R",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "cb46a119-f239-4905-a4a2-1ed0cda34845-493487262"
+          }
+        ],
+        "basedOn": [
+          {
+            "identifier": {
+              "system": "https://hackathon.data.graphnethealth.com/id",
+              "value": "cb46a119-f239-4905-a4a2-1ed0cda34845-493487262"
+            }
+          }
+        ],
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42354611000001108",
+              "display": "Lansoprazole 30mg gastro-resistant capsules"
+            }
+          ],
+          "text": "Lansoprazole 30mg gastro-resistant capsules"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2011-03-06T00:00:00+00:00",
+        "dateAsserted": "2011-03-06T13:05:00.000Z",
+        "informationSource": {
+          "type": "Organization",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/organisation",
+            "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e055"
+          },
+          "display": "Brandon's GP Practice"
+        },
+        "dosage": [
+          {
+            "text": "ONE capsule in the morning - aspirin life-long post TAVI",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 56,
+                  "unit": "capsule"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R4URTEVX34FVJ3FCAU5MNQWEFZ4Q",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "NVZHNN54GKU7ODROGJVON4G3R4URTEVX34FVJ3FCAU5MNQWEFZ4Q",
+        "meta": {
+          "versionId": "6YCRRGMG2OGAQPAAC4LDN2PQV4",
+          "lastUpdated": "2026-03-10T10:02:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+            "valueDateTime": "2024-01-18"
+          },
+          {
+            "url": "https://fhir.graphnethealth.com/R4/Extension-PrescriptionType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-PrescriptionType",
+                  "code": "R",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "de1982fe-e835-44d9-b62f-98ecd0a67040-9449305501"
+          }
+        ],
+        "basedOn": [
+          {
+            "identifier": {
+              "system": "https://hackathon.data.graphnethealth.com/id",
+              "value": "de1982fe-e835-44d9-b62f-98ecd0a67040-9449305501"
+            }
+          }
+        ],
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42037411000001100",
+              "display": "Memantine 10mg tablets"
+            }
+          ],
+          "text": "Memantine 10mg tablets"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "effectiveDateTime": "2011-03-06T00:00:00+00:00",
+        "dateAsserted": "2011-03-06T15:59:00.000Z",
+        "informationSource": {
+          "type": "Organization",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/organisation",
+            "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e053"
+          },
+          "display": "Brandon's GP Practice"
+        },
+        "dosage": [
+          {
+            "text": "One To Be Taken Each Day; kidney blood test in Aug 2021 ; nomad",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 28,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R4TKAAJC5MYLHGE5SEDW5MJLQEYQ",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "NVZHNN54GKU7ODROGJVON4G3R4TKAAJC5MYLHGE5SEDW5MJLQEYQ",
+        "meta": {
+          "versionId": "6K74M3LT7EWV3OM64R6BS3YC7M",
+          "lastUpdated": "2026-03-10T10:02:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+            "valueDateTime": "2024-01-18"
+          },
+          {
+            "url": "https://fhir.graphnethealth.com/R4/Extension-PrescriptionType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-PrescriptionType",
+                  "code": "R",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "8d631654-f737-4089-9c23-5481fc6ff726-9449305501"
+          }
+        ],
+        "basedOn": [
+          {
+            "identifier": {
+              "system": "https://hackathon.data.graphnethealth.com/id",
+              "value": "8d631654-f737-4089-9c23-5481fc6ff726-9449305501"
+            }
+          }
+        ],
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42082911000001100",
+              "display": "Gliclazide 80mg tablets"
+            }
+          ],
+          "text": "Gliclazide 80mg tablets"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "effectiveDateTime": "2011-03-06T00:00:00+00:00",
+        "dateAsserted": "2011-03-06T15:59:00.000Z",
+        "informationSource": {
+          "type": "Organization",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/organisation",
+            "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e050"
+          },
+          "display": "Brandon's GP Practice"
+        },
+        "dosage": [
+          {
+            "text": "One To Be Taken Twice A Day",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 56,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R5LSV6JIUANN5CRUEXEAFJOJZ3WA",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "NVZHNN54GKU7ODROGJVON4G3R5LSV6JIUANN5CRUEXEAFJOJZ3WA",
+        "meta": {
+          "versionId": "UB72FIS3DM7NPA4T73O4P2JAUE",
+          "lastUpdated": "2026-03-10T10:02:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+            "valueDateTime": "2024-01-18"
+          },
+          {
+            "url": "https://fhir.graphnethealth.com/R4/Extension-PrescriptionType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-PrescriptionType",
+                  "code": "R",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "5dda613d-4093-4ea9-848b-f2d8d23ab02b-9449305501"
+          }
+        ],
+        "basedOn": [
+          {
+            "identifier": {
+              "system": "https://hackathon.data.graphnethealth.com/id",
+              "value": "5dda613d-4093-4ea9-848b-f2d8d23ab02b-9449305501"
+            }
+          }
+        ],
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42291811000001106",
+              "display": "Aspirin 75mg dispersible tablets"
+            }
+          ],
+          "text": "Aspirin 75mg dispersible tablets"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "effectiveDateTime": "2011-03-02T00:00:00+00:00",
+        "dateAsserted": "2011-03-02T15:59:00.000Z",
+        "informationSource": {
+          "type": "Organization",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/organisation",
+            "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e048"
+          },
+          "display": "Brandon's GP Practice"
+        },
+        "dosage": [
+          {
+            "text": "one DAILY IN NOMAD; from 13.7.21 after completing course on dalteparin injections",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 28,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/MedicationStatement/NVZHNN54GKU7ODROGJVON4G3R6AFLJDS7EYSIK3LHV2NXZF5VPFA",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "NVZHNN54GKU7ODROGJVON4G3R6AFLJDS7EYSIK3LHV2NXZF5VPFA",
+        "meta": {
+          "versionId": "TOFSKEPPLPIMDLR7MZKOKQITG4",
+          "lastUpdated": "2026-03-10T10:02:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationStatementLastIssueDate",
+            "valueDateTime": "2011-11-01"
+          },
+          {
+            "url": "https://fhir.graphnethealth.com/R4/Extension-PrescriptionType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-PrescriptionType",
+                  "code": "R",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "37414b8b-06a1-421c-a2b6-c5f53c715963-9449305501"
+          }
+        ],
+        "basedOn": [
+          {
+            "identifier": {
+              "system": "https://hackathon.data.graphnethealth.com/id",
+              "value": "37414b8b-06a1-421c-a2b6-c5f53c715963-9449305501"
+            }
+          }
+        ],
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "11497611000001104",
+              "display": "Doublebase  Emollient Shower Gel"
+            }
+          ],
+          "text": "Doublebase  Emollient Shower Gel"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "effectiveDateTime": "2011-01-12T00:00:00+00:00",
+        "dateAsserted": "2011-01-12T00:00:00.000Z",
+        "informationSource": {
+          "type": "Organization",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/organisation",
+            "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e069"
+          },
+          "display": "Brandon's GP Practice"
+        },
+        "dosage": [
+          {
+            "text": "ASD",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 200,
+                  "unit": "gram"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/DiagnosticReport/406cefa5-13a4-483a-971f-2462a4d39636",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "406cefa5-13a4-483a-971f-2462a4d39636",
+        "meta": {
+          "versionId": "a753e1f0-bc3a-475f-89c0-a52367d9330e",
+          "lastUpdated": "2025-10-26T07:47:07.46+00:00",
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "Org1",
+            "name": "BHI"
+          },
+          {
+            "resourceType": "Specimen",
+            "id": "Specimen24B40179398",
+            "identifier": [
+              {
+                "system": "http://api.graphnethealth.com/ID/Specimen",
+                "value": "24B40179398"
+              }
+            ],
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.graphnethealth.com/CodeSystem-SpecimenType",
+                  "code": "Blood",
+                  "display": "Blood"
+                }
+              ]
+            },
+            "subject": {
+              "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+            },
+            "receivedTime": "2024-03-11T09:29:00Z",
+            "collection": {
+              "collectedDateTime": "2024-03-11T06:00:00Z"
+            },
+            "note": [
+              {
+                "text": "routine"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B401793981"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "FBC",
+              "display": "FULL BLOOD COUNT"
+            }
+          ],
+          "text": "FULL BLOOD COUNT"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00Z",
+        "performer": [
+          {
+            "reference": "#Org1",
+            "display": "BHI"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "#Specimen24B40179398"
+          }
+        ],
+        "result": [
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCPLGO63YMM4SGS7EXZMNPAN5K4A"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCPLGO63YMM4SGS7EXZMNPAN5K4A",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCPLGO63YMM4SGS7EXZMNPAN5K4A",
+        "meta": {
+          "versionId": "TMESSHOWG5GAIWMNKANMOOLBSQ",
+          "lastUpdated": "2026-03-10T16:09:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "FBC",
+              "display": "FULL BLOOD COUNT"
+            }
+          ],
+          "text": "FULL BLOOD COUNT"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "hasMember": [
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDB2ECLWILFKCQIYQ6QSSTJRUBFPQ"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDB7TLBMLGN657S6MFCALXXXHUY2Q"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDDZYZ7JBVVKU7GN5CWYJA5CHOZCQ"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDCCEAJI2SH4H343T65IZDPL42QRQ"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDATTR2SKNWQAB5XC4J2OBNWZYXYA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDCHI37EPVLDB67LVCZ7V4SLMDJVA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDAJYQV637EFLC2X2XICC7Q5LHCKQ"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDC4OFXD4U5YOYKWUXCJDXFHE742Q"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDAUSAMAZ2HI5VDJHVTQQHYHWEIUA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDBUZGLTJ6PC3MWKSUIPJD5LM5NXQ"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDD2DSJTBOGMGSXN6V7CV3YL42GQA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDBURHPQH2U45NB25M5TEWL2IALZA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDDBCLMGEB25A4C2IV6FMLV5HML5Q"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDDJRT6TLDNRQTHVKXDMB56RSW4PA"
+          },
+          {
+            "reference": "https://ips-hackathon.azure-api.net/hackathonObservation/3TLKAEOHDFFLYEHCWATERIMQDCTF3WKGPL2SOMV5KSDVLROLLF7Q"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDB2ECLWILFKCQIYQ6QSSTJRUBFPQ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDB2ECLWILFKCQIYQ6QSSTJRUBFPQ",
+        "meta": {
+          "versionId": "OLSA7XJ7ZBE2XLIV2KWRR645XI",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-BASO"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "BASO",
+              "display": "Basophils"
+            }
+          ],
+          "text": "Basophils"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 0.1,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 0.1,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDB7TLBMLGN657S6MFCALXXXHUY2Q",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDB7TLBMLGN657S6MFCALXXXHUY2Q",
+        "meta": {
+          "versionId": "CLPSB5GPX2KS4N7MSDQPM32XVA",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-EOSI"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "EOSI",
+              "display": "Eosinophils"
+            }
+          ],
+          "text": "Eosinophils"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 0.4,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDZYZ7JBVVKU7GN5CWYJA5CHOZCQ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDDZYZ7JBVVKU7GN5CWYJA5CHOZCQ",
+        "meta": {
+          "versionId": "AA75ZFNEFBVWTADQ7TDSLOEFVQ",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-HB"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "HB",
+              "display": "Haemoglobin"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 87,
+          "unit": "g/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 115,
+              "unit": "g/L"
+            },
+            "high": {
+              "value": 165,
+              "unit": "g/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCCEAJI2SH4H343T65IZDPL42QRQ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCCEAJI2SH4H343T65IZDPL42QRQ",
+        "meta": {
+          "versionId": "4F6U5DYW6VV7GM3EM6S4MYEKFY",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-HCT"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "HCT",
+              "display": "Haematocrit"
+            }
+          ],
+          "text": "Haematocrit"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 0.280,
+          "unit": "ratio"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.37,
+              "unit": "ratio"
+            },
+            "high": {
+              "value": 0.47,
+              "unit": "ratio"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDATTR2SKNWQAB5XC4J2OBNWZYXYA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDATTR2SKNWQAB5XC4J2OBNWZYXYA",
+        "meta": {
+          "versionId": "VUPE3US3M7EDA7SNP2Q2VI2RCQ",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-LYMP"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "LYMP",
+              "display": "Lymphocytes"
+            }
+          ],
+          "text": "Lymphocytes"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 2.4,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 4,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCHI37EPVLDB67LVCZ7V4SLMDJVA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCHI37EPVLDB67LVCZ7V4SLMDJVA",
+        "meta": {
+          "versionId": "3RN5FIDWQRJ4FQMQHQ4DQUXGTM",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-MCH"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "MCH",
+              "display": "MCH"
+            }
+          ],
+          "text": "MCH"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 26.8,
+          "unit": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 26,
+              "unit": "pg"
+            },
+            "high": {
+              "value": 35,
+              "unit": "pg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDAJYQV637EFLC2X2XICC7Q5LHCKQ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDAJYQV637EFLC2X2XICC7Q5LHCKQ",
+        "meta": {
+          "versionId": "D2IZFHE6F333HXF6D7RDPLRQ7Q",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-MCHC"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "MCHC",
+              "display": "MCHC"
+            }
+          ],
+          "text": "MCHC"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 311,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 290,
+              "unit": "g/L"
+            },
+            "high": {
+              "value": 350,
+              "unit": "g/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDC4OFXD4U5YOYKWUXCJDXFHE742Q",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDC4OFXD4U5YOYKWUXCJDXFHE742Q",
+        "meta": {
+          "versionId": "RTEMICKROXI2N7WJ6L4IGPPU5A",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-MCV"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "MCV",
+              "display": "MCV"
+            }
+          ],
+          "text": "MCV"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 86.1,
+          "unit": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 75,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 105,
+              "unit": "fL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDAUSAMAZ2HI5VDJHVTQQHYHWEIUA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDAUSAMAZ2HI5VDJHVTQQHYHWEIUA",
+        "meta": {
+          "versionId": "FZW553VSOD26TOHRDFOUSLEE4A",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-MONO"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "MONO",
+              "display": "Monocytes"
+            }
+          ],
+          "text": "Monocytes"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.2,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 0.8,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDBUZGLTJ6PC3MWKSUIPJD5LM5NXQ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDBUZGLTJ6PC3MWKSUIPJD5LM5NXQ",
+        "meta": {
+          "versionId": "WKICPQ5PQT6YD5JEUKROOEIRKE",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-MPV"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "MPV",
+              "display": "Mean Platelet volume"
+            }
+          ],
+          "text": "Mean Platelet volume"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 10.4,
+          "unit": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.2,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 11.9,
+              "unit": "fL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDD2DSJTBOGMGSXN6V7CV3YL42GQA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDD2DSJTBOGMGSXN6V7CV3YL42GQA",
+        "meta": {
+          "versionId": "SBRSK4I3DXY7FVRJUCVU7IY2U4",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-NEUT"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "NEUT",
+              "display": "Neutrophils"
+            }
+          ],
+          "text": "Neutrophils"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 2,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 7.5,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDBURHPQH2U45NB25M5TEWL2IALZA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDBURHPQH2U45NB25M5TEWL2IALZA",
+        "meta": {
+          "versionId": "PRZ66V3ZFCFHFWUFEBNSXEZ3QU",
+          "lastUpdated": "2026-03-10T16:09:26+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-PLT"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "PLT",
+              "display": "Platelets"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 317,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 450,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDBCLMGEB25A4C2IV6FMLV5HML5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDDBCLMGEB25A4C2IV6FMLV5HML5Q",
+        "meta": {
+          "versionId": "GL4NA6HDLUPTMKGGO4FN7WMQWA",
+          "lastUpdated": "2026-03-10T16:09:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-RBC"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "RBC",
+              "display": "RBC"
+            }
+          ],
+          "text": "RBC"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 3.25,
+          "unit": "10*12/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "unit": "10*12/L"
+            },
+            "high": {
+              "value": 5.5,
+              "unit": "10*12/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDDJRT6TLDNRQTHVKXDMB56RSW4PA",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDDJRT6TLDNRQTHVKXDMB56RSW4PA",
+        "meta": {
+          "versionId": "UQ3SW4OGNXJUBES75JGXROOYQI",
+          "lastUpdated": "2026-03-10T16:09:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-RDW"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "RDW",
+              "display": "RDW"
+            }
+          ],
+          "text": "RDW"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 17.2,
+          "unit": "%"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 11,
+              "unit": "%"
+            },
+            "high": {
+              "value": 15,
+              "unit": "%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Observation/3TLKAEOHDFFLYEHCWATERIMQDCTF3WKGPL2SOMV5KSDVLROLLF7Q",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCTF3WKGPL2SOMV5KSDVLROLLF7Q",
+        "meta": {
+          "versionId": "PH7AZHD2HCLC3GRFTCHZXEZVBE",
+          "lastUpdated": "2026-03-10T16:09:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://api.graphnethealth.com/ID/Pathology",
+            "value": "24B40179398-FBC-WBC"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.graphnethealth.com/CodeSystem-DiagnosticReportCategory",
+                "code": "PATH",
+                "display": "Pathology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-PBCL",
+              "code": "WBC",
+              "display": "White Cell Count"
+            }
+          ],
+          "text": "White Cell Count"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "effectiveDateTime": "2024-03-11T10:28:00.000Z",
+        "valueQuantity": {
+          "value": 7.7,
+          "unit": "10*9/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4,
+              "unit": "10*9/L"
+            },
+            "high": {
+              "value": 11,
+              "unit": "10*9/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDAT25DF74DDXMFOZH3MEY4YMZYOA",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDAT25DF74DDXMFOZH3MEY4YMZYOA",
+        "meta": {
+          "versionId": "ZRHKJVZYJEOQA4Y3MUTTPRYXYI",
+          "lastUpdated": "2026-03-10T10:02:24+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "39dac070-c0f6-3da7-98e9-f8c3d909fd02-9449305501"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "871731000000106",
+              "display": "Referral to social prescribing service"
+            }
+          ],
+          "text": "Referral to social prescribing service"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "performedDateTime": "2024-03-06",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr General Practitioner"
+        },
+        "performer": [
+          {
+            "actor": {
+              "type": "Practitioner",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/practitioner",
+                "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+              },
+              "display": "Dr GP Practitioner"
+            },
+            "onBehalfOf": {
+              "type": "Organization",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/organisation",
+                "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e046"
+              },
+              "display": "GP Practice West Quay"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDCZJSDBLERNS737QLOYND7MGDVDA",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCZJSDBLERNS737QLOYND7MGDVDA",
+        "meta": {
+          "versionId": "EDPBFDUV6JA6Q2G5O4DZKY37C4",
+          "lastUpdated": "2026-03-10T10:02:24+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "370"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "eb85f732-047c-e29d-2a7a-678b3e524220-9449305501"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "985151000000100",
+              "display": "Administration of first inactivated seasonal influenza vaccination"
+            }
+          ],
+          "text": "Administration of first inactivated seasonal influenza vaccination"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/S3XTLCV2LZBTTR7EV7HKE5O5X5QIYSTMZ5CYQBDVU7GUJJ3R5SXA"
+        },
+        "performedDateTime": "2023-10-07",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr General Practitioner"
+        },
+        "performer": [
+          {
+            "actor": {
+              "type": "Practitioner",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/practitioner",
+                "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+              },
+              "display": "Dr GP Practitioner"
+            },
+            "onBehalfOf": {
+              "type": "Organization",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/organisation",
+                "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e046"
+              },
+              "display": "GP Practice West Quay"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ips-hackathon.azure-api.net/hackathon/Procedure/3TLKAEOHDFFLYEHCWATERIMQDCIOSFBM442WCSH2AZTMO7OMIKJQ",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3TLKAEOHDFFLYEHCWATERIMQDCIOSFBM442WCSH2AZTMO7OMIKJQ",
+        "meta": {
+          "versionId": "TUM7VQB52CWNH5RUQHOYAXGQ7E",
+          "lastUpdated": "2026-03-10T13:18:36+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure"
+          ],
+          "tag": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-Tenancies",
+              "code": "193"
+            },
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-TenancyType",
+              "code": "acute"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://hackathon.data.graphnethealth.com/id",
+            "value": "387da5c6-c6ac-ad45-25aa-e5b67c9bd13f-493487262"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "182531007",
+              "display": "Dressing of wound"
+            }
+          ],
+          "text": "Dressing of wound"
+        },
+        "subject": {
+          "reference": "https://ips-hackathon.azure-api.net/hackathon/Patient/7C5CUUFAC3JOC4UJXKK7QVJALUAKIO45QDNPQIV5HZM7ZI2CWH3A"
+        },
+        "performedDateTime": "2023-09-21",
+        "recorder": {
+          "type": "Practitioner",
+          "identifier": {
+            "system": "https://hackathon.data.graphnethealth.com/practitioner",
+            "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+          },
+          "display": "Dr General Practitioner"
+        },
+        "performer": [
+          {
+            "actor": {
+              "type": "Practitioner",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/practitioner",
+                "value": "14b48da2-e8f8-4332-a469-4d32351109d8"
+              },
+              "display": "Dr GP Practitioner"
+            },
+            "onBehalfOf": {
+              "type": "Organization",
+              "identifier": {
+                "system": "https://hackathon.data.graphnethealth.com/organisation",
+                "value": "886c7b9a-91f9-4349-8f21-9b41e0c7e046"
+              },
+              "display": "GP Practice West Quay"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
