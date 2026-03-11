@@ -1,4 +1,4 @@
-# INTERopen hack heavy: uk-ps-examples
+# INTEROPen hack heavy: uk-ps-examples
 
 Share examples of your IPS bundles as JSON in this repo!
 
