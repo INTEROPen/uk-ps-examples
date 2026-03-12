@@ -1,0 +1,1516 @@
+{
+  "resourceType": "Bundle",
+  "type": "document",
+  "timestamp": "2026-03-10T16:06:42.350Z",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:d9f9291c-4ef7-494c-bac9-37cf7ba962bf"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:e40e4eb4-b8c6-4051-8e08-a402053e1b27",
+      "resource": {
+        "resourceType": "Composition",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:74d50596-3aed-4262-9ee0-77b404fc2f6c"
+        },
+        "date": "2026-03-10T16:06:42.345Z",
+        "author": [
+          {
+            "reference": "urn:uuid:27793adf-b4a4-48a5-ba56-e23d63f239a2"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem List",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Summary</th></tr></thead><tbody><tr><td>Pain of ear</td></tr><tr><td>Visual impairment</td></tr><tr><td>Heart failure</td></tr><tr><td>Asthma</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:56767ed4-c597-40a9-8c80-6b2d05d0a95f"
+              },
+              {
+                "reference": "urn:uuid:e7869cb2-1580-4df5-88c0-72df6d26239a"
+              },
+              {
+                "reference": "urn:uuid:e8b9c709-b595-4fac-8b23-bc87797555d1"
+              },
+              {
+                "reference": "urn:uuid:6bca9cd6-dd9c-4b9b-8c3b-b08a7c85320a"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Summary</th></tr></thead><tbody><tr><td><span>Allergy to domestic cat protein</span></td></tr><tr><td><span>Adverse reaction to Brietal Sodium</span></td></tr><tr><td><span>Allergy to grass pollen</span></td></tr><tr><td><span>Poisoning by bee sting</span></td></tr><tr><td><span>Allergic reaction to bee sting</span></td></tr><tr><td><span>Allergic reaction to insect bite</span></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:194b99c0-6224-4102-9588-136e483d9cde"
+              },
+              {
+                "reference": "urn:uuid:b850d59d-0cac-46f4-8e1d-f53f16dd7b53"
+              },
+              {
+                "reference": "urn:uuid:8d1d2cf8-1a0b-43e2-86dc-eea7027ec875"
+              },
+              {
+                "reference": "urn:uuid:1170daee-298e-416d-b367-2e48feb5e279"
+              },
+              {
+                "reference": "urn:uuid:0fb36722-3645-41d2-a6dd-463fdba3730c"
+              },
+              {
+                "reference": "urn:uuid:e1f14eed-1041-495b-9ac0-4eb94af2e313"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication Summary",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Summary</th></tr></thead><tbody><tr><td><span>Otex 5% ear drops (Diomed Developments Ltd)</span> <span>Five Drops To Be Used In The Affected Ear(s) Each Day</span></td></tr><tr><td><span>Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)</span> <span>take 1 as required</span></td></tr><tr><td><span>Salbutamol 100micrograms/dose breath actuated inhaler CFC free</span> <span>One Or Two Puffs To Be Inhaled Up To Four Times A Day</span></td></tr><tr><td><span>Aspirin 75mg dispersible tablets</span> <span>One To Be Taken Each Day</span></td></tr><tr><td><span>Aspirin 75mg dispersible tablets</span> <span>One To Be Taken Each Day</span></td></tr><tr><td><span>Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)</span> <span>take 1 as required</span></td></tr><tr><td><span>Otex 5% ear drops (Diomed Developments Ltd)</span> <span>Five Drops To Be Used In The Affected Ear(s) Each Day</span></td></tr><tr><td><span>Salbutamol 100micrograms/dose breath actuated inhaler CFC free</span> <span>One Or Two Puffs To Be Inhaled Up To Four Times A Day</span></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:db4d05ac-fc7d-4d68-9ead-720721db7c87"
+              },
+              {
+                "reference": "urn:uuid:43a65b8f-f453-449d-a87e-40723a1cacce"
+              },
+              {
+                "reference": "urn:uuid:3a9fc73c-d71b-4d92-bc7f-05d866a4c2ec"
+              },
+              {
+                "reference": "urn:uuid:d711988a-a0c8-4cd3-9a1b-099750eb73e7"
+              },
+              {
+                "reference": "urn:uuid:310e3f06-7c5b-42dc-a303-e8ef2289ae82"
+              },
+              {
+                "reference": "urn:uuid:98f71780-f925-48fb-b63b-19f721d5aa85"
+              },
+              {
+                "reference": "urn:uuid:9ff80213-4d2d-4082-9cfa-d3f81fec2acb"
+              },
+              {
+                "reference": "urn:uuid:10d83ae5-213f-4987-a4bb-38f7aebe31b0"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunisations",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No immunisations recorded.</div>"
+            },
+            "emptyReason": {
+              "text": "No information available - reasons unknown"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "History of Procedures",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No procedures recorded.</div>"
+            },
+            "emptyReason": {
+              "text": "No information available - reasons unknown"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "title": "Diagnostic Results",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No diagnostic results available.</div>"
+            },
+            "emptyReason": {
+              "text": "No information available - reasons unknown"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><dl><dt>Title</dt><dd>International Patient Summary</dd><dt>Date generated</dt><dd>10-03-2026 16:06</dd><dt>Author</dt><dd>Black Pear Shared Care Record</dd></dl></div>"
+        },
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "end": "2026-03-10T16:06:42.345Z"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:adb36fd2-ae6d-4a82-9025-fab60a69c5eb"
+        },
+        "id": "e40e4eb4-b8c6-4051-8e08-a402053e1b27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74d50596-3aed-4262-9ee0-77b404fc2f6c",
+      "resource": {
+        "address": [
+          {
+            "id": "8C3C5A04",
+            "line": [
+              "Al-1",
+              "ABBEVILLE",
+              "Henry"
+            ],
+            "period": {
+              "start": "2025-10-09"
+            },
+            "postalCode": "36310",
+            "use": "billing"
+          },
+          {
+            "id": "gonp",
+            "line": [
+              "The Cottage,",
+              "2 Loseberry Road",
+              "Claygate",
+              "ESHER",
+              "Surrey"
+            ],
+            "period": {
+              "start": "2011-06-23"
+            },
+            "postalCode": "KT10 9DQ",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1946-01-09",
+        "extension": [
+          {
+            "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NominatedPharmacy",
+            "valueReference": {
+              "identifier": {
+                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                "value": "FEA92"
+              }
+            }
+          }
+        ],
+        "gender": "female",
+        "generalPractitioner": [
+          {
+            "id": "#dowe",
+            "identifier": {
+              "period": {
+                "start": "1960-07-14"
+              },
+              "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+              "value": "H81109"
+            },
+            "type": "Organization",
+            "display": "CAPELFIELD SURGERY"
+          }
+        ],
+        "id": "74d50596-3aed-4262-9ee0-77b404fc2f6c",
+        "identifier": [
+          {
+            "extension": [
+              {
+                "url": "https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-NHSNumberVerificationStatus",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "01",
+                      "display": "Number present and verified",
+                      "system": "https://fhir.hl7.org.uk/CodeSystem/UKCore-NHSNumberVerificationStatus",
+                      "version": "1.0.0"
+                    }
+                  ]
+                }
+              }
+            ],
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "9449303908"
+          }
+        ],
+        "meta": {
+          "security": [
+            {
+              "code": "N",
+              "display": "normal",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+            }
+          ],
+          "versionId": "15",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+          ]
+        },
+        "name": [
+          {
+            "family": "WAGGOTT",
+            "given": [
+              "CYMBELINE",
+              "DOMENIC"
+            ],
+            "id": "frsk",
+            "period": {
+              "start": "2008-08-04"
+            },
+            "prefix": [
+              "MR"
+            ],
+            "use": "usual"
+          }
+        ],
+        "resourceType": "Patient",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "address": [
+              {
+                "line": [
+                  "ELM ROAD",
+                  "CLAYGATE"
+                ],
+                "city": "ESHER",
+                "district": "SURREY",
+                "postalCode": "KT10 0EH",
+                "country": "ENGLAND"
+              }
+            ],
+            "id": "dowe",
+            "name": "CAPELFIELD SURGERY",
+            "identifier": [
+              {
+                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                "value": "H81109"
+              }
+            ]
+          }
+        ],
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+            "value": "X26"
+          },
+          "display": "NHS ENGLAND - X26"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><dl><dt>Name</dt><dd>WAGGOTT, CYMBELINE DOMENIC (MR)</dd><dt>Born</dt><dd>9-Jan-1946 (80y)</dd><dt>Sex</dt><dd>Female</dd><dt>NHS No.</dt><dd>944 930 3908</dd><dt>Address</dt><dd>The Cottage,, 2 Loseberry Road, Claygate, ESHER, Surrey, KT10 9DQ</dd><dt>Phone and email</dt><dd>Not Known</dd></dl></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db4d05ac-fc7d-4d68-9ead-720721db7c87",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "db4d05ac-fc7d-4d68-9ead-720721db7c87",
+        "status": "active",
+        "intent": "plan",
+        "medicationCodeableConcept": {
+          "text": "Otex 5% ear drops (Diomed Developments Ltd)",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "2900411000001103",
+              "display": "Otex 5% ear drops (Diomed Developments Ltd)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2024-05-01",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Five Drops To Be Used In The Affected Ear(s) Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2024-05-01"
+          },
+          "numberOfRepeatsAllowed": 2,
+          "quantity": {
+            "value": 15,
+            "unit": "ml"
+          }
+        },
+        "encounter": {
+          "reference": "Encounter/110C0811F9FC4AC7A00E86630E34E7D3"
+        },
+        "extension": [
+          {
+            "url": "https://fhir.blackpear.com/R4/StructureDefinition/Extension-RepeatPrescriptions",
+            "extension": [
+              {
+                "url": "numberOfRepeatPrescriptionsAllowed",
+                "valuePositiveInt": 2
+              },
+              {
+                "url": "numberOfRepeatPrescriptionsIssued",
+                "valuePositiveInt": 2
+              },
+              {
+                "url": "lastIssueDate",
+                "valueString": "2025-10-21"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Otex 5% ear drops (Diomed Developments Ltd)</span> <span>Five Drops To Be Used In The Affected Ear(s) Each Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:43a65b8f-f453-449d-a87e-40723a1cacce",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "43a65b8f-f453-449d-a87e-40723a1cacce",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "8989911000001105",
+              "display": "Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2024-05-01",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "take 1 as required"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2024-05-01"
+          },
+          "quantity": {
+            "value": 12,
+            "unit": "lozenge"
+          }
+        },
+        "encounter": {
+          "reference": "Encounter/110C0811F9FC4AC7A00E86630E34E7D3"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)</span> <span>take 1 as required</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a9fc73c-d71b-4d92-bc7f-05d866a4c2ec",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "3a9fc73c-d71b-4d92-bc7f-05d866a4c2ec",
+        "status": "active",
+        "intent": "plan",
+        "medicationCodeableConcept": {
+          "text": "Salbutamol 100micrograms/dose breath actuated inhaler CFC free",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "39112711000001103",
+              "display": "Salbutamol 100micrograms/dose breath actuated inhaler CFC free"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2024-03-20",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "One Or Two Puffs To Be Inhaled Up To Four Times A Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2024-03-20"
+          },
+          "numberOfRepeatsAllowed": 6,
+          "quantity": {
+            "value": 6400,
+            "unit": "dose"
+          }
+        },
+        "extension": [
+          {
+            "url": "https://fhir.blackpear.com/R4/StructureDefinition/Extension-RepeatPrescriptions",
+            "extension": [
+              {
+                "url": "numberOfRepeatPrescriptionsAllowed",
+                "valuePositiveInt": 6
+              },
+              {
+                "url": "numberOfRepeatPrescriptionsIssued",
+                "valuePositiveInt": 2
+              },
+              {
+                "url": "lastIssueDate",
+                "valueString": "2025-10-21"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Salbutamol 100micrograms/dose breath actuated inhaler CFC free</span> <span>One Or Two Puffs To Be Inhaled Up To Four Times A Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d711988a-a0c8-4cd3-9a1b-099750eb73e7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "d711988a-a0c8-4cd3-9a1b-099750eb73e7",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Aspirin 75mg dispersible tablets",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42291811000001106",
+              "display": "Aspirin 75mg dispersible tablets"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2024-03-20",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "One To Be Taken Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2024-03-20"
+          },
+          "quantity": {
+            "value": 23,
+            "unit": "tablet"
+          }
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Aspirin 75mg dispersible tablets</span> <span>One To Be Taken Each Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:310e3f06-7c5b-42dc-a303-e8ef2289ae82",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "310e3f06-7c5b-42dc-a303-e8ef2289ae82",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Aspirin 75mg dispersible tablets",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42291811000001106",
+              "display": "Aspirin 75mg dispersible tablets"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2025-10-21",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "One To Be Taken Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2025-10-21"
+          },
+          "quantity": {
+            "value": 23,
+            "unit": "tablet"
+          }
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Aspirin 75mg dispersible tablets</span> <span>One To Be Taken Each Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98f71780-f925-48fb-b63b-19f721d5aa85",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "98f71780-f925-48fb-b63b-19f721d5aa85",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "8989911000001105",
+              "display": "Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2025-10-21",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "take 1 as required"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2025-10-21"
+          },
+          "quantity": {
+            "value": 12,
+            "unit": "lozenge"
+          }
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Strepsils Strawberry lozenges sugar free (Reckitt Benckiser Healthcare (UK) Ltd)</span> <span>take 1 as required</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ff80213-4d2d-4082-9cfa-d3f81fec2acb",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "9ff80213-4d2d-4082-9cfa-d3f81fec2acb",
+        "status": "completed",
+        "intent": "instance-order",
+        "medicationCodeableConcept": {
+          "text": "Otex 5% ear drops (Diomed Developments Ltd)",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "2900411000001103",
+              "display": "Otex 5% ear drops (Diomed Developments Ltd)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2025-10-21",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Five Drops To Be Used In The Affected Ear(s) Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2025-10-21"
+          },
+          "quantity": {
+            "value": 15,
+            "unit": "ml"
+          }
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Otex 5% ear drops (Diomed Developments Ltd)</span> <span>Five Drops To Be Used In The Affected Ear(s) Each Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10d83ae5-213f-4987-a4bb-38f7aebe31b0",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "10d83ae5-213f-4987-a4bb-38f7aebe31b0",
+        "status": "completed",
+        "intent": "instance-order",
+        "medicationCodeableConcept": {
+          "text": "Salbutamol 100micrograms/dose breath actuated inhaler CFC free",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "39112711000001103",
+              "display": "Salbutamol 100micrograms/dose breath actuated inhaler CFC free"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "authoredOn": "2025-10-21",
+        "requester": {
+          "reference": "Practitioner/6551"
+        },
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "dosageInstruction": [
+          {
+            "text": "One Or Two Puffs To Be Inhaled Up To Four Times A Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2025-10-21"
+          },
+          "quantity": {
+            "value": 6400,
+            "unit": "dose"
+          }
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Salbutamol 100micrograms/dose breath actuated inhaler CFC free</span> <span>One Or Two Puffs To Be Inhaled Up To Four Times A Day</span>\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:194b99c0-6224-4102-9588-136e483d9cde",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "194b99c0-6224-4102-9588-136e483d9cde",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Allergy to domestic cat protein",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "^ESCT1475152",
+              "display": "Allergy to domestic cat protein"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1208807009",
+              "display": "Allergy to domestic cat protein"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2025-07-24",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Allergy to domestic cat protein</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b850d59d-0cac-46f4-8e1d-f53f16dd7b53",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "b850d59d-0cac-46f4-8e1d-f53f16dd7b53",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Adverse reaction to Brietal Sodium"
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2024-05-01T10:24:00+01:00",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "extension": [
+          {
+            "url": "http://www.e-mis.com/emisopen/MedicalRecord/R4/StructureDefinition/Extension-AllergyType",
+            "valueCoding": {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/AllergyType",
+              "code": "2",
+              "display": "Drug name allergy"
+            }
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "Drug allergy"
+              }
+            ],
+            "substance": {
+              "text": "Adverse reaction to Brietal Sodium",
+              "coding": [
+                {
+                  "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/EmisDrugName",
+                  "code": "2073.00",
+                  "display": "Adverse reaction to Brietal Sodium"
+                },
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "1047081000006107",
+                  "display": "Adverse reaction to Brietal Sodium"
+                }
+              ]
+            }
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Adverse reaction to Brietal Sodium</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d1d2cf8-1a0b-43e2-86dc-eea7027ec875",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "8d1d2cf8-1a0b-43e2-86dc-eea7027ec875",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Allergy to grass pollen",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "ESCTAL3",
+              "display": "Allergy to grass pollen"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "418689008",
+              "display": "Allergy to grass pollen"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2024-03-20",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Allergy to grass pollen</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1170daee-298e-416d-b367-2e48feb5e279",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1170daee-298e-416d-b367-2e48feb5e279",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Poisoning by bee sting",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "TE53200",
+              "display": "Poisoning by bee sting"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "7998009",
+              "display": "Poisoning by bee sting"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2023-05-25T14:09:00+01:00",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Poisoning by bee sting</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0fb36722-3645-41d2-a6dd-463fdba3730c",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "0fb36722-3645-41d2-a6dd-463fdba3730c",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Allergic reaction to bee sting",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "SN59000",
+              "display": "Allergic reaction to bee sting"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "282095007",
+              "display": "Allergic reaction to bee sting"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2023-05-18",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Allergic reaction to bee sting</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1f14eed-1041-495b-9ac0-4eb94af2e313",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "e1f14eed-1041-495b-9ac0-4eb94af2e313",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "text": "Allergic reaction to insect bite",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "^ESCT1397573",
+              "display": "Allergic reaction to insect bite"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "871920005",
+              "display": "Allergic reaction to insect bite"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2023-05-18",
+        "recorder": {
+          "reference": "Practitioner/6551"
+        },
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <span>Allergic reaction to insect bite</span>\n  \n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56767ed4-c597-40a9-8c80-6b2d05d0a95f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "56767ed4-c597-40a9-8c80-6b2d05d0a95f",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active",
+              "code": "active"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "255604002",
+              "display": "Mild"
+            },
+            {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemSignificance",
+              "code": "2",
+              "display": "Minor Problem/Low Priority"
+            }
+          ]
+        },
+        "code": {
+          "text": "Pain of ear (Right)",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "^ESCT1485215",
+              "display": "Pain of ear"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "301354004",
+              "display": "Pain of ear"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "recordedDate": "2025-10-21",
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "note": [
+          {
+            "id": "DescriptiveText",
+            "text": "Got the lug sorted now the rights playing up <c> Got the left ear sorted now the right ear is playing up"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://www.e-mis.com/emisopen/MedicalRecord/R4/StructureDefinition/Extension-ProblemStatus",
+            "valueCoding": {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemStatus",
+              "code": "1",
+              "display": "Active Problem/Actual Problem"
+            }
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  Pain of ear\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7869cb2-1580-4df5-88c0-72df6d26239a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e7869cb2-1580-4df5-88c0-72df6d26239a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active",
+              "code": "active"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            },
+            {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemSignificance",
+              "code": "1",
+              "display": "Significant Problem/High Priority"
+            }
+          ]
+        },
+        "code": {
+          "text": "Visual impairment (Left)",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "F49D.00",
+              "display": "Visual impairment"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "397540003",
+              "display": "Visual impairment"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "encounter": {
+          "reference": "Encounter/FB48338575BC4A8B88B157F862CDE417"
+        },
+        "recordedDate": "2024-03-20T17:07:00+00:00",
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "extension": [
+          {
+            "url": "http://www.e-mis.com/emisopen/MedicalRecord/R4/StructureDefinition/Extension-ProblemStatus",
+            "valueCoding": {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemStatus",
+              "code": "1",
+              "display": "Active Problem/Actual Problem"
+            }
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  Visual impairment\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8b9c709-b595-4fac-8b23-bc87797555d1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e8b9c709-b595-4fac-8b23-bc87797555d1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active",
+              "code": "active"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            },
+            {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemSignificance",
+              "code": "1",
+              "display": "Significant Problem/High Priority"
+            }
+          ]
+        },
+        "code": {
+          "text": "Heart failure",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "G58..00",
+              "display": "Heart failure"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "84114007",
+              "display": "Heart failure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "encounter": {
+          "reference": "Encounter/6688CD910F254AFB8697EA63F290A84A"
+        },
+        "recordedDate": "2024-03-20T13:28:00+00:00",
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "extension": [
+          {
+            "url": "http://www.e-mis.com/emisopen/MedicalRecord/R4/StructureDefinition/Extension-ProblemStatus",
+            "valueCoding": {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemStatus",
+              "code": "1",
+              "display": "Active Problem/Actual Problem"
+            }
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  Heart failure\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6bca9cd6-dd9c-4b9b-8c3b-b08a7c85320a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6bca9cd6-dd9c-4b9b-8c3b-b08a7c85320a",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active",
+              "code": "active"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            },
+            {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemSignificance",
+              "code": "1",
+              "display": "Significant Problem/High Priority"
+            }
+          ]
+        },
+        "code": {
+          "text": "Asthma",
+          "coding": [
+            {
+              "system": "http://read.info/readv2",
+              "code": "H33..00",
+              "display": "Asthma"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "195967001",
+              "display": "Asthma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/500599"
+        },
+        "encounter": {
+          "reference": "Encounter/BB05C5B0B13F44AF8FF6B3DB46C972D0"
+        },
+        "recordedDate": "2023-05-25T14:09:00+01:00",
+        "asserter": {
+          "reference": "Practitioner/6551"
+        },
+        "extension": [
+          {
+            "url": "http://www.e-mis.com/emisopen/MedicalRecord/R4/StructureDefinition/Extension-ProblemStatus",
+            "valueCoding": {
+              "system": "http://www.e-mis.com/emisopen/MedicalRecord/R4/CodeSystem/ProblemStatus",
+              "code": "1",
+              "display": "Active Problem/Actual Problem"
+            }
+          }
+        ],
+        "meta": {
+          "source": "https://88505af40ee4441bbd.core-latest.eu-west-2.quickfhir.cloud/A28579"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  Asthma\n</div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27793adf-b4a4-48a5-ba56-e23d63f239a2",
+      "resource": {
+        "resourceType": "Device",
+        "id": "27793adf-b4a4-48a5-ba56-e23d63f239a2",
+        "deviceName": [
+          {
+            "name": "Black Pear Shared Care Record",
+            "type": "user-friendly-name"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Resource type 'Device' was not known by the fhir-narrator. No human-readable text provided in this case</div>"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-03-10T16:06:42.350Z",
+    "profile": [
+      "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+    ]
+  }
+}
