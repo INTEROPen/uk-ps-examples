@@ -1,0 +1,888 @@
+{
+  "resourceType": "Bundle",
+  "id": "df6d8a1e-87d8-4a39-9eb9-f6cd57e9edfc",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:9562",
+    "value": "00e5156a-e69d-44c8-9f76-4778a46ee7b3",
+    "assigner": {
+      "display": "HL7 Europe"
+    }
+  },
+  "type": "document",
+  "timestamp": "2025-09-10T15:10:57.695Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d5aaeecf-67da-46d9-9ecb-68ab1028f6f1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "d5aaeecf-67da-46d9-9ecb-68ab1028f6f1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:9562",
+          "value": "e5b93416-1c4c-466a-a7ad-244cde61a4dd",
+          "assigner": {
+            "display": "HL7 Europe"
+          }
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "date": "2025-09-10T15:10:57.695Z",
+        "author": [
+          {
+            "reference": "urn:uuid:9921d37e-f055-4c9f-80a2-ecb386fa6ded"
+          }
+        ],
+        "title": "European Patient Summary",
+        "confidentiality": "N",
+        "custodian": {
+          "reference": "urn:uuid:efa42ad4-cb52-42f1-8ec1-2f18670374b1",
+          "display": "GBR"
+        },
+        "section": [
+          {
+            "title": "Medication list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Medication list</h3><ul><li>Paracetamol 500mg tablet — Take as needed</li><li>Amoxicillin 250mg chewable tablet — Take twice a day</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6a7db686-4fe4-4c96-a192-1cf2f260f1cc"
+              },
+              {
+                "reference": "urn:uuid:a1d5ae74-0225-4268-b286-013e3b3b3992"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Allergies and Intolerances</h3><ul><li>Adverse reaction to tetanus vaccine</li><li>Allergy to dexamethasone</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:86809794-ba15-466e-b843-e1e1ffcd125e"
+              },
+              {
+                "reference": "urn:uuid:63bd17ae-f143-4de5-9f58-81ed46350763"
+              }
+            ]
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Problem list</h3><ul><li>Unable to chew (2025-08-31)</li><li>Chronic erythema (2025-07-22)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6b2e06c3-ca9b-454a-9f5e-66245683a57c"
+              },
+              {
+                "reference": "urn:uuid:a1bca5b2-5c92-4d20-a5fb-80d285989151"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>History of Procedures</h3><ul><li>Monitoring of cardiac output using continuous oesophageal Doppler (2025-08-11)</li><li>Removal of foreign body from bladder by incision (2025-06-07)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b89c7c62-3885-4835-b0c7-085d918f1ea0"
+              },
+              {
+                "reference": "urn:uuid:7f1215f3-a3bc-4916-97b6-78e646e0266e"
+              }
+            ]
+          },
+          {
+            "title": "Device Use",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "empty",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">No known medical devices in use.</div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "nilknown",
+                  "display": "Nil known"
+                }
+              ],
+              "text": "No known devices"
+            }
+          },
+          {
+            "title": "Immunizations list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Immunizations list</h3><ul><li>Human alphaherpesvirus 3 antigen vaccine (2026-02-24)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6aaac323-25eb-4008-8437-6c5df0a7931c"
+              }
+            ]
+          },
+          {
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Relevant diagnostic tests / observations</h3><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\"><tr><td>Name</td><td>Value</td><td>Date</td></tr><tr><td>IRON STUDIES</td><td></td><td>2025-08-21</td></tr><tr><td>Ferritin</td><td>538 %</td><td>2025-08-21</td></tr><tr><td>Iron</td><td>20.5 umol/L</td><td>2025-08-21</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9f19c33c-f4f6-48fe-9d7f-1d945b61f48d"
+              },
+              {
+                "reference": "urn:uuid:dc0c5626-b7d9-458b-ab1a-d5ad5452335c"
+              },
+              {
+                "reference": "urn:uuid:6adeaaed-3573-4edf-bd86-8b07f0ec1824"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b51672d9-54db-46ff-8f46-ea800860cedc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "JHN"
+                }
+              ]
+            },
+            "system": "http://example.org/identifier-1",
+            "value": "1234567890"
+          }
+        ],
+        "name": [
+          {
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-01-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "country": "UK"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:efa42ad4-cb52-42f1-8ec1-2f18670374b1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "efa42ad4-cb52-42f1-8ec1-2f18670374b1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "name": "GBR",
+        "address": [
+          {
+            "country": "UK"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9921d37e-f055-4c9f-80a2-ecb386fa6ded",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "9921d37e-f055-4c9f-80a2-ecb386fa6ded",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "practitioner": {
+          "reference": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e"
+        },
+        "organization": {
+          "reference": "urn:uuid:efa42ad4-cb52-42f1-8ec1-2f18670374b1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "family": "Forde",
+            "given": [
+              "Dr"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:abb063d1-fd5a-4047-8ed8-644a4a08dca1",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "abb063d1-fd5a-4047-8ed8-644a4a08dca1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "322236009",
+              "display": "Paracetamol 500mg tablet"
+            }
+          ],
+          "text": "Paracetamol 500mg tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a7db686-4fe4-4c96-a192-1cf2f260f1cc",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6a7db686-4fe4-4c96-a192-1cf2f260f1cc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:abb063d1-fd5a-4047-8ed8-644a4a08dca1",
+          "display": "Paracetamol 500mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "effectivePeriod": {
+          "start": "2025-06-22"
+        },
+        "dosage": [
+          {
+            "text": "Take as needed",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 500,
+                  "unit": "milligram",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:053e3bd7-cfaa-4fcd-8ec6-c71ad886cdbe",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "053e3bd7-cfaa-4fcd-8ec6-c71ad886cdbe",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "370407003",
+              "display": "Amoxicillin 250mg chewable tablet"
+            }
+          ],
+          "text": "Amoxicillin 250mg chewable tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1d5ae74-0225-4268-b286-013e3b3b3992",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a1d5ae74-0225-4268-b286-013e3b3b3992",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:053e3bd7-cfaa-4fcd-8ec6-c71ad886cdbe",
+          "display": "Amoxicillin 250mg chewable tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "effectivePeriod": {
+          "start": "2025-01-03"
+        },
+        "dosage": [
+          {
+            "text": "Take twice a day",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 250,
+                  "unit": "milligram",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86809794-ba15-466e-b843-e1e1ffcd125e",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "86809794-ba15-466e-b843-e1e1ffcd125e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "219084006",
+              "display": "Adverse reaction to tetanus vaccine"
+            }
+          ],
+          "text": "Adverse reaction to tetanus vaccine"
+        },
+        "patient": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "onsetDateTime": "2025-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63bd17ae-f143-4de5-9f58-81ed46350763",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "63bd17ae-f143-4de5-9f58-81ed46350763",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "294702008",
+              "display": "Allergy to dexamethasone"
+            }
+          ],
+          "text": "Allergy to dexamethasone"
+        },
+        "patient": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "onsetDateTime": "2025-01-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b2e06c3-ca9b-454a-9f5e-66245683a57c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6b2e06c3-ca9b-454a-9f5e-66245683a57c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "288920002",
+              "display": "Unable to chew"
+            }
+          ],
+          "text": "Unable to chew"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "onsetDateTime": "2025-08-31",
+        "asserter": {
+          "reference": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+          "display": "Dr Forde"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1bca5b2-5c92-4d20-a5fb-80d285989151",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a1bca5b2-5c92-4d20-a5fb-80d285989151",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "125116007",
+              "display": "Chronic erythema"
+            }
+          ],
+          "text": "Chronic erythema"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "onsetDateTime": "2025-07-22",
+        "asserter": {
+          "reference": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+          "display": "Dr Forde"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f19c33c-f4f6-48fe-9d7f-1d945b61f48d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9f19c33c-f4f6-48fe-9d7f-1d945b61f48d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_SET_ISTUD2",
+              "display": "IRON STUDIES"
+            }
+          ],
+          "text": "IRON STUDIES"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "effectiveDateTime": "2025-08-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc0c5626-b7d9-458b-ab1a-d5ad5452335c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dc0c5626-b7d9-458b-ab1a-d5ad5452335c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_TEST_FERR",
+              "display": "Ferritin"
+            }
+          ],
+          "text": "Ferritin"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "effectiveDateTime": "2025-08-21",
+        "valueQuantity": {
+          "value": 538,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6adeaaed-3573-4edf-bd86-8b07f0ec1824",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6adeaaed-3573-4edf-bd86-8b07f0ec1824",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_TEST_IRON",
+              "display": "Iron"
+            }
+          ],
+          "text": "Iron"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "effectiveDateTime": "2025-08-21",
+        "valueQuantity": {
+          "value": 20.5,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6aaac323-25eb-4008-8437-6c5df0a7931c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "6aaac323-25eb-4008-8437-6c5df0a7931c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "836495005",
+              "display": "Human alphaherpesvirus 3 antigen vaccine"
+            }
+          ],
+          "text": "Human alphaherpesvirus 3 antigen vaccine"
+        },
+        "patient": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "occurrenceDateTime": "2026-02-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b89c7c62-3885-4835-b0c7-085d918f1ea0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b89c7c62-3885-4835-b0c7-085d918f1ea0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/procedure-eu-core"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "442232002",
+              "display": "Monitoring of cardiac output using continuous oesophageal Doppler"
+            }
+          ],
+          "text": "Monitoring of cardiac output using continuous oesophageal Doppler"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "performedDateTime": "2025-08-11",
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+              "display": "Dr Forde"
+            },
+            "onBehalfOf": {
+              "reference": "urn:uuid:efa42ad4-cb52-42f1-8ec1-2f18670374b1",
+              "display": "GBR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7f1215f3-a3bc-4916-97b6-78e646e0266e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7f1215f3-a3bc-4916-97b6-78e646e0266e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/procedure-eu-core"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49006001",
+              "display": "Removal of foreign body from bladder by incision"
+            }
+          ],
+          "text": "Removal of foreign body from bladder by incision"
+        },
+        "subject": {
+          "reference": "urn:uuid:b51672d9-54db-46ff-8f46-ea800860cedc",
+          "display": "John Smith"
+        },
+        "performedDateTime": "2025-06-07",
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:8485f96d-31fb-4b78-83f7-79ee3c8c628e",
+              "display": "Dr Forde"
+            },
+            "onBehalfOf": {
+              "reference": "urn:uuid:efa42ad4-cb52-42f1-8ec1-2f18670374b1",
+              "display": "GBR"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

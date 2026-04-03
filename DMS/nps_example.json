@@ -1,0 +1,313 @@
+{
+  "resourceType": "Bundle",
+  "id": "df6d8a1e-87d8-4a39-9eb9-f6cd57e9edfc",
+  "timestamp": "2025-09-10T15:10:57Z",
+  "type": "collection",
+  "total": 13,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt1",
+        "identifier": [
+          {
+            "system": "NATO_Id",
+            "value": "1234567890"
+          },
+          {
+            "system": "National_Id",
+            "value": "165cccc5"
+          }
+        ],
+        "name": [
+          {
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-01-01",
+        "address": [
+          {
+            "country": "UK"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "org1",
+        "name": "GBR"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medreq1",
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/med1",
+          "display": "Paracetamol 500mg tablet"
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "authoredOn": "2025-06-22T15:10:58Z",
+        "dosageInstruction": [
+          {
+            "text": "Take as needed"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "med1",
+        "code": {
+          "coding": [
+            {
+              "display": "Paracetamol 500mg tablet",
+              "system": "http://snomed.info/sct",
+              "code": "322236009"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medreq2",
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/med2",
+          "display": "Amoxicillin 250mg chewable tablet"
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "authoredOn": "2025-01-03T16:10:58Z",
+        "dosageInstruction": [
+          {
+            "text": "Take twice a day"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "med2",
+        "code": {
+          "coding": [
+            {
+              "display": "Amoxicillin 250mg chewable tablet",
+              "system": "http://snomed.info/sct",
+              "code": "370407003"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy1",
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "display": "Adverse reaction to tetanus vaccine",
+              "system": "http://snomed.info/sct",
+              "code": "219084006"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/pt1"
+        },
+        "onsetDateTime": "2025-06-22T15:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy2",
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "display": "Allergy to dexamethasone",
+              "system": "http://snomed.info/sct",
+              "code": "294702008"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/pt1"
+        },
+        "onsetDateTime": "2025-01-03T16:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition1",
+        "code": {
+          "coding": [
+            {
+              "display": "Unable to chew",
+              "system": "http://snomed.info/sct",
+              "code": "288920002"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "onsetDateTime": "2025-08-31T15:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition2",
+        "code": {
+          "coding": [
+            {
+              "display": "Chronic erythema",
+              "system": "http://snomed.info/sct",
+              "code": "125116007"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "onsetDateTime": "2025-07-22T15:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ob1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "display": "IRON STUDIES",
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_SET_ISTUD2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "effectiveDateTime": "2025-08-21T15:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ob2",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "display": "Ferritin",
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_TEST_FERR"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "effectiveDateTime": "2025-08-21T15:10:58Z",
+        "valueQuantity": {
+          "value": 538,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ob3",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "display": "Iron",
+              "system": "https://fhir.graphnethealth.com/CodeSystem-LocalResultCodes-1233",
+              "code": "CHM_TEST_IRON"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "effectiveDateTime": "2025-08-21T15:10:58Z",
+        "valueQuantity": {
+          "value": 20.5,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc1",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Monitoring of cardiac output using continuous oesophageal Doppler",
+              "system": "http://snomed.info/sct",
+              "code": "442232002"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "performedDateTime": "2025-08-11T15:10:58Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc2",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "display": "Removal of foreign body from bladder by incision",
+              "system": "http://snomed.info/sct",
+              "code": "49006001"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pt1"
+        },
+        "performedDateTime": "2025-06-07T15:10:58Z"
+      }
+    }
+  ]
+}
